@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+       ALL CONTACTS
+    
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/home.css"
+</head>
+<body>
+   <H1>MY CONTACT LIST</H1>
+   <div id="center">
+    <% for(let i of contact_list){ %>
+      <ul>
+              <li><div id="main"><a href="/contacts/<%= i.id %>"><%= i.name %> </a></div>   
+              <div id="main"><%= i.number %> </div>    
+               
+                <div id="main" class="delete">
+                <a href='/delete-contact/?id=<%= i._id%>'>
+                
+                    <i class="fa fa-window-close" aria-hidden="true"></i>
+                
+                </a></div>
+            <div id="main"><a href="/contacts/<%= i.id %>/edit">edit contact</a></div>
+            
+            </li>
+            </ul>
+            
+     
+    <%} %>
+   
+</div> 
+<div class="add">
+<a class="yellow" href="/contacts/add"> ADD CONTACT</a>
+</div>
+<script type="text/javascript " src="/js/home.js"></script>
+</body>
+</html>

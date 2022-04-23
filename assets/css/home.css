@@ -1,0 +1,77 @@
+body{
+
+    margin: 5px;
+   
+    background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29udGFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    color:whitesmoke;
+    
+}
+section{
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+    color:whitesmoke;
+}
+h2{
+    text-align: center;
+    color:whitesmoke;
+}
+
+#main{
+    display: inline-block;
+    margin:5px;
+    border:2px solid black;
+    padding: 5px;
+    background-color: cornsilk;
+    color: black;
+    width: 162px;
+    text-align: center;
+    font-size: 24px;
+}
+.delete{
+    border:none;
+}
+.yellow{
+   
+  color: yellow;
+  margin: 5px;
+  font-size: 15px;
+}
+input{
+    padding:2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:50px;
+    height: 36px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+.add{
+   
+    background-color: red;
+    width: 16%;
+    text-align: center;
+    margin: auto;
+    height: 35px;
+    margin-left: 692px;
+    padding: 7px;
+    font-size: x-large;
+    margin-top: 55px;
+}
+
+
+#center{
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 48%;
+background-color: blanchedalmond;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
